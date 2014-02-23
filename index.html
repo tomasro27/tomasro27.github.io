@@ -3,40 +3,77 @@
   <title>Tomas Rodriguez</title>
   <style>
     body {
-      text-align: center;
-      background: url("https://scontent-a-atl.xx.fbcdn.net/hphotos-frc1/t1/293424_10152069779070290_1048911179_n.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-      background-repeat: no-repeat;
-      color: #CC5500;
-      font-family: helvetica;
-      font-weight:900;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+        text-align: center;
+        background: url("https://scontent-a-atl.xx.fbcdn.net/hphotos-frc1/t1/293424_10152069779070290_1048911179_n.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #CC5500;
+        font-family: helvetica;
+        font-weight:900;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     p {
-      font-size: 30px;
-      margin-top: 5px;
-      
-      
-      text-shadow: 0 4px 5px rgba(2,2,2,2);
-      
+        font-size: 30px;
+        margin-top: 5px;
+        text-shadow: 0 4px 5px rgba(2,2,2,2);
     }
 
     .pp
     {
-      margin-top:20%;
-      border-radius:100%;
-      height:250px;
-      position: center; 
+        margin-top:200px;
+        border-radius:100%;
+        height:400px;
+        position: center; 
       
     }
+    ul{
+        padding: 10px;
+        margin-top: 80px;
+       
+    }
+    li, a {
+        display: inline;
+        padding: 14px;
+        color: white;
+        background: #CC5500;
+        text-decoration: none;
+        width: 100px;
+        position: center;
+ 
+    }
+      
+    @media (max-width: 550px) {
+    
+    ul{
+        margin-top: 40px;
+    }
+    li, a{
+        display: block;
+        margin: 10px;
+        padding: 2px;
+        width: auto;
+        
+    }
+        
+    .pp{
+        height:250px;
+        margin-top: 70px;
+    }
+    
 
   </style>
 </head>
 <body> 
     <img class="pp" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash2/t1/14770_10152431783460290_1236661426_n.jpg?lvh=1">
-  <p>Hi! I'm Tomas Rodriguez
-  </p>
+  <p>Hi! I'm Tomas Rodriguez</p>
+    <ul>
+        <li><a href="#">About Me</a></li>
+      <!--  <li><a href="#">Resume</a></li>  -->
+        <li><a href="https://github.com/tomasro27">Github</a></li>
+        <li><a href="https://twitter.com/tomasro27">Twitter</a></li>
+        <li><a href="https://www.facebook.com/tomasro27">Facebook</a></li>
+    </ul>
 </body>
